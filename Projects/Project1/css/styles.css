@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+.page-container{
+    width: calc(clamp(300px, 90%, 1200px));
+    background-color: blanchedalmond;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+}
+
+.list-it{
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 2px;
+}
